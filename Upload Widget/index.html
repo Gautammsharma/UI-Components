@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Upload</title>
+
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="u-wrapper">
+  <div class="u-container">
+    <div class="u-inner">
+
+      <div class="u-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <path d="M12 16V4M12 4L8 8M12 4L16 8"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"/>
+          <path d="M5 16V18C5 19.1 5.9 20 7 20H17C18.1 20 19 19.1 19 18V16"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <div class="u-title">Upload pictures</div>
+
+      <div class="u-text">
+        Videos must be less than <strong>30 MB</strong><br />
+        and photos must be less than <strong>2 MB</strong><br />
+        in size.
+      </div>
+
+      <input class="u-input" type="file" id="fileInput" />
+
+      <button class="u-button" id="uploadBtn">
+        Upload
+      </button>
+
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
